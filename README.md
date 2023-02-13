@@ -1,5 +1,3 @@
-# py-barcodes
-
 # Barcode Scanner
 
 Developed by Charlie for Pup Scouts Boarding and Daycamp.
