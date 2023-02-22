@@ -187,11 +187,11 @@ def shareSheet(s_id):
     emailAddresses = json.loads(os.environ["SHARE_ADDRESSES"])
 
     file_id = s_id
-    for email in emailAddresses:
+    for domain in emailAddresses:
         permission = {
-            "type": "user",
+            "type": "domain",
             "role": "writer",
-            "emailAddress": f"{email}",
+            "domain": f"{domain}",
         }
         req = drive.permissions().create(fileId=file_id, body=permission).execute()
         print(req)
