@@ -5,6 +5,10 @@ token.json
 barcodescanner-368501-1adee6188a15.p12
 BIGREDDELETEBUTTON.py
 serviceaccount_pk.json
+deleteitall.py
+linux/
+*.bat
+manualScan.bat
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
